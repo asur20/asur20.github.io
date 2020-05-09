@@ -158,11 +158,11 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffffff;
+			color: #000000;
 		}
 
 	strong, b {
-		color: #ffffff;
+		color: #000000;
 		font-weight: bold;
 	}
 
@@ -1833,7 +1833,7 @@ input, select, textarea {
 		transition: border-color 0.2s ease;
 		background-color: transparent;
 		border: solid 1px !important;
-		border-color: rgba(255, 255, 255, 0.15) !important;
+		border-color: rgba(78, 71, 71, 0.15) !important;
 		border-radius: 3em;
 		color: #000000 !important;
 		cursor: pointer;
@@ -1945,7 +1945,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: rgba(255, 255, 255, 0.55) !important;
+			border-color: #000000 !important;
 		}
 
 			input[type="submit"]:hover:after,
@@ -1965,7 +1965,7 @@ input, select, textarea {
 			input[type="button"]:hover:active,
 			button:hover:active,
 			.button:hover:active {
-				border-color: #ffffff !important;
+				border-color: #000000 !important;
 			}
 
 				input[type="submit"]:hover:active:after,
@@ -1975,6 +1975,7 @@ input, select, textarea {
 				.button:hover:active:after {
 					opacity: 0.1;
 				}
+                
 
 /* Features */
 
@@ -2840,6 +2841,8 @@ input, select, textarea {
 					ul.actions:not(.fixed) li button,
 					ul.actions:not(.fixed) li .button {
 						width: 100%;
+                        padding-left:0px;
+                        padding-right:0px;
 					}
 
 						ul.actions:not(.fixed) li input[type="submit"].icon:before,
@@ -3887,10 +3890,10 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #8da642, #b74e91);
+				background-image: -webkit-linear-gradient(to right, #8da642, #b74e91);
+				background-image: -ms-linear-gradient(to right, #8da642, #b74e91);
+				background-image: linear-gradient(to right, #8da642, #b74e91);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
