@@ -395,6 +395,7 @@ input, select, textarea {
 
 		.row > .col-3 {
 			width: 25%;
+            padding:1%;
 		}
 
 		.row > .off-3 {
