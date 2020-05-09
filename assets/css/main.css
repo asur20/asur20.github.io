@@ -23,6 +23,11 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
+    
+  content
+  {
+  width:100%;
+   }
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -1996,7 +2001,8 @@ input, select, textarea {
 	}
 
 		.features section {
-			padding: 3.5em 3em 1em 7em ;
+			/*padding: 3.5em 3em 1em 7em ;*/
+            padding: 2% ;
 			width: 50%;
 			border: solid 1px rgba(255, 255, 255, 0.15);
             position: relative;
@@ -2694,7 +2700,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 		padding-left: 1em;
 	}
 
@@ -3116,7 +3122,7 @@ input, select, textarea {
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			width: 50em;
+			width: 100%;
 			-ms-flex: 1;
 		}
 
@@ -3245,7 +3251,7 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px rgba(255, 255, 255, 0.15);
+			border: solid 1px rgba(255, 255, 255, 1);
 			border-left: 0;
 			border-right: 0;
 		}
