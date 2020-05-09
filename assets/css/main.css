@@ -2608,24 +2608,25 @@ input, select, textarea {
 				-webkit-transition: opacity 0.2s ease-in-out;
 				-ms-transition: opacity 0.2s ease-in-out;
 				transition: opacity 0.2s ease-in-out;
-				border-radius: 0.35em;
-				border: solid 3px rgba(255, 255, 255, 0.5);
-				color: #fff;
-				content: 'View';
+				/*border-radius: 0.35em;
+				border: solid 3px rgba(255, 255, 255, 0.5);*/
+				content: '\f0A6';  /* this is your text. You can also use UTF-8 character codes as I do here */
+                font-family: 'Font Awesome 5 Free';
 				display: inline-block;
 				font-size: 0.8em;
 				font-weight: 400;
-				left: 50%;
-                right: 50%;
+				/*left: 50%;*/
+                right: 0%;
 				line-height: 2.25em;
-				margin: -1.25em 0 0 -3em;
+				/*margin: -1.25em 0 0 -3em;
 				opacity: 0;
-				/*padding: 0 1.5em;*/
+				padding: 0 1.5em;*/
 				position: absolute;
 				text-align: center;
 				text-decoration: none;
-				top: 50%;
+				bottom: 0%;
 				white-space: nowrap;
+                padding-right:4%;
 			}
 
 			.image.thumb:hover:after {
